@@ -55,7 +55,7 @@ MacOS Big sur+Win 10（单硬盘双系统）
  - USB定制
  - 声卡定制
  ### 不正常
- - `hackintool`中显示为`coffeelake`平台（暂时并不影响使用）
+ - `Hackintool`中显示为`coffee lake`平台（暂时并不影响使用）
  - 显示器亮度调节（后续会使用MonitorControl）
  - Open shell（没有加入）
  
