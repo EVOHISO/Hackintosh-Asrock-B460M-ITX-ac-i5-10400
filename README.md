@@ -1,5 +1,5 @@
 # Hachintoch
-i5 10400+Asrock B460M ITX
+i5 10400+Asrock B460M ITX/ac
 ## 系统
 MacOS Big sur+Win 10（单硬盘双系统）
 ![ ](images/1.png)
