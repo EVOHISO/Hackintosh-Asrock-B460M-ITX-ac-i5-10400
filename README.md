@@ -18,8 +18,9 @@ MacOS Big sur+Win 10（单硬盘双系统）
 |  风扇  |ID 40X            |
 ##### *注：本文只提供EFI的分享以及在安装过程中碰到的问题，系统还有很多不完善的地方，希望得到大家的帮助和指点*
 
-## 引导概况
- - Opencore版本：0.6.5 release
+## 引导概况（2021年4月1日更新）
+ - Opencore版本：~0.6.5 release~ 更新为0.6.7 release
+ - Mac 系统升级到11.2.2
  - 使用本EFI之前通过 GenSMBIOS 生成新的三码，在/EFI/OC/config.plist 文件中进行修改
 ```xml
 <dict>
@@ -55,9 +56,9 @@ MacOS Big sur+Win 10（单硬盘双系统）
  - USB定制
  - 声卡定制
  ### 不正常
- - `Hackintool`中显示为`coffee lake`平台（暂时并不影响使用）
- - 显示器亮度调节（后续会使用MonitorControl）
- - Open shell（没有加入）
+ - ~`Hackintool`中显示为`coffee lake`平台（暂时并不影响使用）~
+ - 显示器亮度调节
+ - 启动皮肤无法显示
  
  ## 参考与感谢：
 + Dortania 制作的安装手册 https://dortania.github.io/OpenCore-Install-Guide/
