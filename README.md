@@ -21,7 +21,7 @@ MacOS Big sur+Win 10（单硬盘双系统）
 
 ## 引导概况（2021年4月1日更新）
  - Opencore版本：~0.6.5 release~ 更新为0.6.7 release
- - Mac 系统升级到11.2.2
+ - Mac 系统升级到11.2.3
  - 使用本EFI之前通过 GenSMBIOS 生成新的三码，在/EFI/OC/config.plist 文件中进行修改
 ```xml
 <dict>
