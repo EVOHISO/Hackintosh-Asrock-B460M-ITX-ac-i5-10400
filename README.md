@@ -42,7 +42,7 @@ MacOS Big sur+Win 10（单硬盘双系统）
 ```
  - 安装MacOS之前，BIOS需要关闭WAN功能。当系统安装成功后。在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入`brcmfx-drive=0`，然后重启进入`BIOS`开启`WAN`以实现蓝牙和wifi功能。（如果直接使用本EFI，尽量先去掉引导参数`brcmfx-drive=0`，等系统安装成功后再添加）
  ## 双系统启动
- 将win10的EFI文件夹中的*Microsoft*文件夹直接拷贝到本EFI中，并将EFI文件夹放入ESP分区即可
+ 将win10的EFI文件夹中的*Microsoft*文件夹直接拷贝到本EFI中，并将EFI文件夹放入ESP分区即可。注意：本方法是默认Mac os启动，如需要默认Win启动的话，请找相关资料设置EFI
  ![ ](images/2.png)
 
  
